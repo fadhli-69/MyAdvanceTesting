@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("kotlin-android")
+    alias(libs.plugins.kotlin.android)
     id("com.google.devtools.ksp")
     id("kotlin-parcelize")
 }
@@ -26,6 +26,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -37,41 +38,58 @@ android {
 }
 
 dependencies {
+    testImplementation(libs.junit.junit)
+    // Desugaring for Java 8+
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
 
-    // ui
+    // Core UI components
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+    implementation(libs.androidx.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
-
-    implementation(libs.glide)
     implementation(libs.androidx.viewpager2)
     implementation(libs.androidx.fragment.ktx)
 
-    //testing
-    testImplementation(libs.junit)
-    testImplementation(libs.junit.jupiter)
-    testImplementation(libs.jupiter.junit.jupiter)
-    testImplementation(libs.junit.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    // Glide for image loading
+    implementation(libs.glide)
 
-    //room
+    // Lifecycle - ViewModel & LiveData
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    // Room for local database
     implementation(libs.androidx.room.runtime)
-    ksp(libs.room.compiler)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 
-    //retrofit
+    // Retrofit for networking
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.logging.interceptor)
 
-    //coroutine support
-    implementation(libs.androidx.lifecycle.viewmodel.ktx) //viewModelScope
-    implementation(libs.androidx.lifecycle.livedata.ktx) //liveData
-    implementation(libs.androidx.room.ktx)
+    // Testing dependencies
+    testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
+    testImplementation(libs.kotlinx.coroutines.test) // TestCoroutineDispatcher
+    testImplementation(libs.androidx.core.testing) // InstantTaskExecutorRule
+    implementation(libs.androidx.espresso.idling.resource)
 
-    coreLibraryDesugaring(libs.desugar.jdk.libs)
+    // UI testing
+    androidTestImplementation(libs.androidx.test.core)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.test.runner)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.espresso.contrib) // RecyclerViewActions
+    androidTestImplementation(libs.androidx.espresso.idling.resource)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
+    androidTestImplementation(libs.androidx.core.testing)
+    androidTestImplementation(libs.mockwebserver)
+    androidTestImplementation(libs.okhttp3.okhttp.tls)
+    androidTestImplementation(libs.androidx.espresso.intents)
 
+    // Special instrumentation testing
+    debugImplementation(libs.androidx.fragment.testing) // launchFragmentInContainer
 }

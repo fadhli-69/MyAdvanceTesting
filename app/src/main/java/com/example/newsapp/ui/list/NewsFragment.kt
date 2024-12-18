@@ -51,18 +51,25 @@ class NewsFragment : Fragment() {
                     when (result) {
                         is Result.Loading -> {
                             binding?.progressBar?.visibility = View.VISIBLE
+                            binding?.rvNews?.visibility = View.GONE
+                            binding?.viewError?.root?.visibility = View.GONE
                         }
                         is Result.Success -> {
                             binding?.progressBar?.visibility = View.GONE
+                            binding?.rvNews?.visibility = View.VISIBLE
+                            binding?.viewError?.root?.visibility = View.GONE
+
                             val newsData = result.data
                             newsAdapter.submitList(newsData)
                         }
                         is Result.Error -> {
                             binding?.progressBar?.visibility = View.GONE
+                            binding?.rvNews?.visibility = View.GONE
                             binding?.viewError?.root?.visibility = View.VISIBLE
                             binding?.viewError?.tvError?.text = getString(R.string.something_wrong)
                         }
                     }
+
                 }
             }
         } else if (tabName == TAB_BOOKMARK) {

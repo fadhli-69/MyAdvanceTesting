@@ -1,12 +1,12 @@
 package com.example.newsapp.data
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.example.newsapp.BuildConfig
 import com.example.newsapp.data.local.entity.NewsEntity
 import com.example.newsapp.data.local.room.NewsDao
 import com.example.newsapp.data.remote.retrofit.ApiService
+import com.example.newsapp.utils.wrapEspressoIdlingResource
 
 class NewsRepository(
     private val apiService: ApiService,
@@ -14,13 +14,14 @@ class NewsRepository(
 ) {
     fun getHeadlineNews(): LiveData<Result<List<NewsEntity>>> = liveData {
         emit(Result.Loading)
-        try {
-            val response = apiService.getNews(BuildConfig.API_KEY)
-            val articles = response.articles
-
-            val filteredNewsList = articles
-                .filter { !it.urlToImage.isNullOrEmpty() }
-                .map { article ->
+        wrapEspressoIdlingResource {
+            try {
+                val response = apiService.getNews(BuildConfig.API_KEY)
+                if (response.articles.isEmpty()) {
+                    emit(Result.Error("No news available"))
+                    return@wrapEspressoIdlingResource
+                }
+                val newsList = response.articles.map { article ->
                     NewsEntity(
                         article.title,
                         article.publishedAt,
@@ -28,14 +29,12 @@ class NewsRepository(
                         article.url
                     )
                 }
-
-            emit(Result.Success(filteredNewsList))
-        } catch (e: Exception) {
-            Log.d("NewsRepository", "getHeadlineNews: ${e.message.toString()} ")
-            emit(Result.Error(e.message.toString()))
+                emit(Result.Success(newsList))
+            } catch (e: Exception) {
+                emit(Result.Error(e.message.toString()))
+            }
         }
     }
-
 
     fun getBookmarkedNews(): LiveData<List<NewsEntity>> {
         return newsDao.getBookmarkedNews()

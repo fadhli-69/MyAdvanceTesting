@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 36,
+  "articles": [
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Ars Technica",
+      "title": "Nvidia partners leak next-gen RTX 50-series GPUs, including a 32GB 5090 - Ars Technica",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2l4UHVtSnlDT2VIYXFSdDBLamhWVDJmWERydDlVaHhTMEh2blVEUXZOb0dVWnFCdGhWczR6alVoQVlGcFlFSG5HbnVGbkZDZFhDT2tNZ0g4ZlZjdlRCenlJNWcwLXAySjI5aXVJU01EMUc4eUFXS3JTSHRmXy1vcFVoX0NsZ2tmTmMwZUR5M2xTSGdib1pxZnFTOXdVQ2tRc2VEUjVNX2dRUVhpQUJMWg?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-12-17T18:16:04Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Brian Stelter, Katelyn  Polantz, Hadas Gold, Paula Reid",
+      "title": "Trump sues Des Moines Register and top pollster over final Iowa survey - CNN",
+      "description": "President-elect Donald Trump is escalating his legal campaign against media outlets by suing renowned pollster J. Ann Selzer, her polling firm, The Des Moines Register newspaper and its parent company Gannett.",
+      "url": "https://www.cnn.com/2024/12/17/media/trump-lawsuit-des-moines-register-ann-selzer-poll/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ap24351632720403.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-12-17T18:08:00Z",
+      "content": "President-elect Donald Trump is escalating his legal campaign against media outlets by suing renowned pollster J. Ann Selzer, her polling firm, The Des Moines Register newspaper and its parent compan… [+4406 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNN",
+      "title": "Tech consultant found guilty of second-degree murder in stabbing death of Cash App founder Bob Lee - CNN",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUS01dk9NMng2QXlaZlB4emkwNWI4QVhwMHNNWXpfc1NDVVFSdlppdnFvRUVnT3FIcWdsWWs3WWJDOTVWbUJVZ0NfbnUwRE9MRnhVanVSM1ZsblhEYlotWjB3MGpMQVQza0JvUE00RVZVa3B0dzd2ZnBjUmEtUVNmRm9VYW5WM0hULUHSAYABQVVfeXFMTmZiU1Q1eWVKUU04QzRsNnRFN21KbHpSWE1RV2I5dW1kTUNaR0UyQXBRRzdXZThzc2RjUU1od3VPeGhMdkc0akN3NmtQUnhVNC0xdXhQS1o3Zkd1cHRqRkJqa2JqY3RCYzFJWXFkUFlvSWd3b1JEZjFMcVNmRkNMY0g?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-12-17T18:04:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": "Natalie Neysa Alund",
+      "title": "Hunter dies in freak accident after bear falls from tree in Virginia - USA TODAY",
+      "description": "The Virginia Department of Wildlife Resources said a treed bear fell and hit the hunter. The man, 58, later died at a hospital.",
+      "url": "https://www.usatoday.com/story/news/nation/2024/12/17/hunter-lester-harvey-killed-bear-falls-tree-virginia/77042545007/",
+      "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/12/17/USAT/77043481007-usatsi-23614912.jpg?crop=2999,1688,x0,y213&width=2999&height=1688&format=pjpg&auto=webp",
+      "publishedAt": "2024-12-17T18:00:00Z",
+      "content": "A 58-year-old man is dead after a bear fell out of a tree and struck him in what appears to be a hunting accident in Virginia, state wildlife officials said Tuesday.\r\nThe Virginia Department of Wildl… [+2365 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Esther Zuckerman",
+      "title": "Disney’s Mufasa Is a Bleak Glimpse at the Future of Cinema - Bloomberg",
+      "description": "An all-star cast can’t save this pointless movie.",
+      "url": "https://www.bloomberg.com/news/articles/2024-12-17/beyonce-and-lin-manuel-miranda-can-t-save-terrible-disney-mufasa-review",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifX0IgVwkHFg/v1/1200x649.jpg",
+      "publishedAt": "2024-12-17T17:14:40Z",
+      "content": "At a certain point in Disneys new prequel, Mufasa: The Lion King, you realize the movies only value is to answer questions about The Lion King you never knew you had. How did Rafiki get his stick? Ho… [+203 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sarah Ferris, Lauren Fox, Clare Foran",
+      "title": "Hill Republicans say funding deal reached, but Johnson’s dealmaking with Democrats stirs anger among conservatives - CNN",
+      "description": "Congressional Republican leaders have informed their members that they’ve reached a deal on government funding, with staffers now racing to finalize hundreds of pages of text, according to four GOP sources.",
+      "url": "https://www.cnn.com/2024/12/17/politics/government-spending-deal-negotiations-congress/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2188625629.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-12-17T16:48:00Z",
+      "content": "Congressional Republican leaders have informed their members that theyve reached a deal on government funding, with staffers now racing to finalize hundreds of pages of text, according to four GOP so… [+4333 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rocio Fabbro",
+      "title": "Nvidia stock slumps into a correction and Broadcom sinks despite its 'Nvidia moment' - Yahoo Finance",
+      "description": "Nvidia (NVDA) stock is in correction territory, and rival chipmaker Broadcom’s (AVGO) late-year boost took a hit Tuesday morning.",
+      "url": "https://finance.yahoo.com/news/nvidia-stock-slumps-correction-while-130600029.html",
+      "urlToImage": "https://media.zenfs.com/en/quartz.com/8884929e4009cfec010fce1c0af25316",
+      "publishedAt": "2024-12-17T16:08:00Z",
+      "content": "Photo: Michaela Vatcheva/Bloomberg (Getty Images)\r\nNvidia (NVDA) stock is in correction territory, and rival chipmaker Broadcoms (AVGO) late-year boost took a hit Tuesday morning.\r\nShares of Nvidia f… [+2064 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ABC News",
+      "title": "Gilgo Beach serial killing suspect Rex Heuermann charged with 7th murder as stunning details emerge - ABC News",
+      "description": null,
+      "url": "https://abcnews.go.com/US/significant-development-case-accused-gilgo-beach-serial-killer/story?id\\\\u003d116858510",
+      "urlToImage": null,
+      "publishedAt": "2024-12-17T16:07:30Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Kyle Wiggers",
+      "title": "Code Assist, Google’s enterprise-focused coding assistant, gets third-party tools - TechCrunch",
+      "description": "Google has announced support for third-party tools in Gemini Code Assist, its enterprise-focused AI code completion service.",
+      "url": "https://techcrunch.com/2024/12/17/code-assist-googles-enterprise-focused-code-assistant-gets-third-party-tools/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/09/google-io-gemini.webp?resize=1200,671",
+      "publishedAt": "2024-12-17T16:00:00Z",
+      "content": "Google on Tuesday announced support for third-party tools in Gemini Code Assist, its enterprise-focused AI code completion service. \r\nCode Assist launched in April as a rebrand of a similar service G… [+2653 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Variety"
+      },
+      "author": "Daniel D'Addario",
+      "title": "Pamela Anderson and Mikey Madison Get Honest About Intimacy Coordinators, Acting Prep and Why Pam Is ‘Not Ashamed of the Choices I Made’ - Variety",
+      "description": "Pamela Anderson and Mikey Madison discuss \"The Last Showgirl,\" \"Anora\" and more in a discussion for Variety's \"Actors on Actors\" series.",
+      "url": "https://variety.com/2024/film/news/pamela-anderson-mikey-madison-anora-intimacy-coordinators-1236241323/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2024/12/Pamela-Anderson-and-Mikey-Madison-Variety-Actors-on-Actors.jpg?crop=0px%2C64px%2C1200px%2C674px&resize=1000%2C563",
+      "publishedAt": "2024-12-17T16:00:00Z",
+      "content": "Mikey Madison, who got her start on the FX series “Better Things,” is among the discoveries of Oscar season with Sean Baker’s “Anora.” As the title character — a Russian American stripper in Brooklyn… [+8178 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Mike Florio",
+      "title": "Raheem Morris doesn’t rule out benching Kirk Cousins for Michael Penix, Jr. - NBC Sports",
+      "description": "The quote that landed on Twitter wasn't particularly ominous.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raheem-morris-doesnt-rule-out-benching-kirk-cousins-for-michael-penix-jr",
+      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/0dc48b6/2147483647/strip/true/crop/4066x2287+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fbd%2F57%2F9def86e840ee904daa7970de50df%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2190311256",
+      "publishedAt": "2024-12-17T15:51:08Z",
+      "content": "The quote that landed on Twitter wasnt particularly ominous. The full comments definitely were.\r\nSpeaking to reporters after Monday nights sluggish and ugly win over the Raiders, Falcons coach Raheem… [+2440 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Joseph Adinolfi",
+      "title": "One popular Wall Street indicator flashes stock-market sell signal - MarketWatch",
+      "description": "Investors’ allocation to cash has shrunk below a key threshold that has in the past preceded short-term pullbacks: BofA",
+      "url": "https://www.marketwatch.com/story/one-popular-wall-street-indicator-flashes-stock-market-sell-signal-685d549e",
+      "urlToImage": "https://images.mktw.net/im-70099042/social",
+      "publishedAt": "2024-12-17T15:39:00Z",
+      "content": "Professional investors have become super bullish on stocks, according to a popular Bank of America survey. That doesnt bode well for the markets short-term returns. \r\nBofAs weekly fund managers surve… [+299 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Sabrina Malhi",
+      "title": "Panel warns against vitamin D, calcium use to prevent falls in older adults - The Washington Post",
+      "description": "The guidance from the U.S. Preventive Services Task Force underscores the risks of supplementation without prior testing.",
+      "url": "https://www.washingtonpost.com/health/2024/12/17/vitamin-d-warning-older-adults/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LJ442TAAOQI6ZB7APYD33HHCOA.jpg&w=1440",
+      "publishedAt": "2024-12-17T15:36:21Z",
+      "content": "A panel of independent health experts recommended Tuesday against older adults using vitamin D and calcium supplements to prevent falls and fractures citing inadequate evidence to support their effec… [+3452 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hollywood Reporter"
+      },
+      "author": "Mesfin Fekadu",
+      "title": "The 10 Best Albums of 2024 - Hollywood Reporter",
+      "description": "From a stunningly ambitious history lesson to a career high from an R&B icon to standout debuts from two rising stars, THR’s music editor picks his favorite releases.",
+      "url": "http://www.hollywoodreporter.com/lifestyle/arts/best-albums-of-2024-ranked-1236087681/",
+      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2024/12/35rev_albums-MAIN.jpg?w=1440&h=810&crop=1",
+      "publishedAt": "2024-12-17T14:45:52Z",
+      "content": "Imagine this: You’ve been documenting your favorite albums throughout the year and you are ready to write your Top 10 list, but then that artist who never makes bad music decides to bless us with a s… [+5266 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Emily Mullin",
+      "title": "A Third Person Has Received a Transplant of a Genetically Engineered Pig Kidney - WIRED",
+      "description": "A 53-year-old woman was the third to undergo the transplant procedure. Researchers are hoping to monitor the long-term effects.",
+      "url": "https://www.wired.com/story/a-third-person-has-received-a-transplant-of-a-genetically-engineered-pig-kidney/",
+      "urlToImage": "https://media.wired.com/photos/676178061574e04adddd8d2c/191:100/w_1280,c_limit/121724_Pig-Transplant-Science.jpg",
+      "publishedAt": "2024-12-17T14:40:42Z",
+      "content": "An Alabama woman has become the third person to receive a kidney transplant from a genetically engineered pig, her doctors announced Tuesday.\r\nTowana Looney, 53, is off of kidney dialysis after under… [+2322 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "[Removed]"
+      },
+      "author": null,
+      "title": "[Removed]",
+      "description": "[Removed]",
+      "url": "https://removed.com",
+      "urlToImage": null,
+      "publishedAt": "2024-12-17T14:06:00Z",
+      "content": "[Removed]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Avery Lotz",
+      "title": "Judge rejects Trump's request to overturn hush money conviction - Axios",
+      "description": "Judge Juan Merchan rejected Trump's argument that his actions in the case were \"official acts.\"",
+      "url": "https://www.axios.com/2024/12/17/trump-hush-money-conviction-ny-sentencing",
+      "urlToImage": "https://images.axios.com/e-HL9oivbggtZuxJU9WHpjvTYjg=/0x49:5794x3308/1366x768/2024/12/17/1734442175115.jpg",
+      "publishedAt": "2024-12-17T13:54:08Z",
+      "content": "The New York judge overseeing President-elect Trump's hush money trial rejected his request to toss his guilty verdict due to the Supreme Court's ruling on presidential immunity. \r\nWhy it matters: Wh… [+1383 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ZDNet"
+      },
+      "author": "Jack Wallen",
+      "title": "The 3 most Windows-like Linux distros you can try because change is hard - ZDNet",
+      "description": "If you're still using Windows 10, you know the end is nigh. If you want to keep your machine running smoothly and feeling familiar, check out these Linux distros.",
+      "url": "https://www.zdnet.com/article/the-3-most-windows-like-linux-distros-you-can-try-because-change-is-hard/",
+      "urlToImage": "https://www.zdnet.com/a/img/resize/4ea11a2cedac1bb84d618324efe3ab1a7e24379c/2024/12/16/5c62988b-1991-4428-8b51-8712bb44d4fe/3penguins3gettyimages-484366876.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2024-12-17T13:54:00Z",
+      "content": "elmvilla/Getty Images\r\nWindows 10's end of life is coming in 2025 and that means you have to hope your machine can run Windows 11, buy a new computer, or try something different -- like Linux.\r\nAlso:… [+4325 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Mike Blanchfield, Sue Allan",
+      "title": "How Trump divided Trudeau and Freeland - POLITICO",
+      "description": "As she quit Cabinet, the finance minister sounded the alarm about Canada's preparedness for Trump 2.0.",
+      "url": "https://www.politico.com/news/2024/12/17/trump-trudeau-chrystia-freeland-canada-00194783",
+      "urlToImage": "https://static.politico.com/1c/32/82dfdb36470e89a07206ae564d8a/us-canada-50473.jpg",
+      "publishedAt": "2024-12-17T13:43:14Z",
+      "content": "The bombshell announcement ended Freelands run as deputy prime minister and Trudeaus trusted right hand, especially during the first Trump administration when the president reopened continental trade… [+4802 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "David Knowles",
+      "title": "Teacher and student killed in Wisconsin school shooting, female suspect also dead: Here’s what we know so far - Yahoo! Voices",
+      "description": "A teacher and a student were killed Monday morning after a student at a private Christian school in Madison, Wis., opened fire, police said. The suspect was ...",
+      "url": "https://www.yahoo.com/news/teacher-and-student-killed-in-wisconsin-school-shooting-female-suspect-also-dead-heres-what-we-know-so-far-235738492.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/rpiNFUD5_meHarWs11PIfw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-12/2dd3bc00-bbf4-11ef-9d3d-3568acab7021",
+      "publishedAt": "2024-12-17T13:14:07Z",
+      "content": "Yahoo is using AI to generate takeaways from this article. This means the info may not always match what's in the article. Reporting mistakes helps us improve the experience.Generate Key Takeaways\r\nA… [+5452 chars]"
+    }
+  ]
+}
